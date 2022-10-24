@@ -1,0 +1,23 @@
+.user-profile-form-container{
+    .heading{
+        font-weight: bold;
+        color: rgb(105, 133, 111);
+        text-align: center;
+    }
+    .mat-form-field{
+        width: 100%;
+    }
+
+        .radio-button-container{
+            margin-right: 30px;
+            margin-bottom: 20px;
+
+            .radio-button-label{
+                margin-right: 30px;
+            }
+            .radio-male{
+                margin-right: 20px;
+            }
+        }
+    
+}

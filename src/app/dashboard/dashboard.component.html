@@ -1,0 +1,47 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-3 col-md-12">
+            <mat-card class="looged-in-user-card text-center">
+                <img class="logged-in-user-img" src="/assets/DSC_0110.jpg">
+                <mat-card-title>Pankaj Chavan</mat-card-title>
+                <mat-card-subtitle>CFA, CIC</mat-card-subtitle>
+                <h5>Premium member</h5>
+                <div>
+                    <mat-icon>school</mat-icon>
+                    <span class="skill">Insurance Agent, Attorney, Accountant</span>
+                </div>
+                <br>
+                <mat-divider></mat-divider>
+                <br>
+                <button mat-button color="warn">
+                    <mat-icon>mail</mat-icon>
+                    <span class="menu-items">Send an Email</span>
+                </button>
+            </mat-card>
+        </div>
+        <div class="col-12 col-lg-9 col-md-12">
+            <mat-card class="user-details-card">
+                <h3 class="buiseness-details"><span class="buiseness-text">Buiseness Details</span></h3>
+                <div class="user-details">
+                    <h2 class="Profile col-12">
+                        <mat-icon class="person-icon">person</mat-icon>
+                        <span style="margin-left:5px;">Profile</span>
+                        <button mat-raised-button color="warn" class="edit-button" (click)="onEdit()">
+                            Edit Profile
+                        </button>
+                    </h2>
+                    <mat-divider></mat-divider>
+                    <div class="profile-details" *ngFor="let user of userDetails">
+                        <p><span class="label">Name:</span> <span class="name">{{user.name}}</span></p>
+                        <p><span class="label">Domain:</span> <span class="domain">{{user.domain}}</span></p>
+                        <p><span class="label">Gender:</span><span class="gender">{{user.gender}}</span> </p>
+                        <p><span class="label">Date of Birth:</span><span class="dob">{{user.dob}}</span> </p>
+                        <p><span class="label">Phone Number:</span><span class="phone">{{user.phone}} </span></p>
+                        <p><span class="label">Location:</span> <span class="location">{{user.location}}</span></p>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+    </div>
+</div>

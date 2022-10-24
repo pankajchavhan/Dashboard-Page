@@ -1,0 +1,56 @@
+.menu-items{
+    margin-left: 5px;
+    padding: 5;
+}
+.navbar-brand{
+    margin-left: 10px;
+    margin-right: 30px;
+    color: rgb(105, 133, 111);
+    font-size: larger;
+    margin-top: 30px;
+    font-family:cursive;
+}
+.navbar-brand-icon{
+    color: rgb(76, 87, 78);
+    margin-left: 30px;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.sub-heading{
+    color: rgb(105, 133, 111);
+    display: flex;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-weight: 300;
+    font-family:cursive;
+}
+
+.sub-navbar-brand{
+    padding-top: 0;
+    font-size: small;
+}
+
+.right-side-menu{
+    margin-left: 50%;
+    margin-right: 20px;
+ }
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+mat-toolbar{
+    margin-bottom: 20px;
+}
+
+a .active{
+    color: rgb(243, 84, 11);
+     .mat-icon{
+        color: rgb(243, 84, 11);
+     }
+}
+
+

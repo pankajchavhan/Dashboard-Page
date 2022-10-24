@@ -1,0 +1,78 @@
+
+.container{
+    .looged-in-user-card{
+        .logged-in-user-img{
+            width:130px;
+            height: 130px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        mat-card-subtitle{
+            margin-bottom: 0px;
+        }
+    }
+
+    .user-details-card{
+        padding: 0px;
+        height: 370px;
+        .buiseness-details {
+            background-color: rgb(180, 197, 153);
+            height: 50px;
+            font-weight: 500;
+            padding: 10px;
+            .buiseness-text {
+                margin-left: 30px;
+            }
+        }
+
+        .user-details{
+            .Profile {
+                margin-left: 30px;
+                margin-top: 5px;
+    
+                .person-icon {
+                    color: rgb(151, 173, 112);
+                }
+                .edit-button {
+                    margin-left: 70%;
+                }
+            }
+
+            .profile-details {
+                padding: 10px;
+                margin-top: 30px;
+                border: ridge;
+                margin-left: 15px;
+                margin-right: 15px;
+                .label {
+                    font-weight: bold;
+                    margin-left: 20px;
+                }
+        
+                .name {
+                    margin-left: 120px;
+                }
+        
+                .domain {
+                    margin-left: 110px;
+                }
+        
+                .gender {
+                    margin-left: 115px;
+                }
+        
+                .dob {
+                    margin-left: 80px;
+                }
+        
+                .phone {
+                    margin-left: 65px;
+                }
+        
+                .location {
+                    margin-left: 105px;
+                }
+            }
+        }
+    }
+}
