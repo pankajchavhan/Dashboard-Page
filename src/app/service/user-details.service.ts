@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import {UserDetails} from '../user-details.model';
 
 @Injectable({
   providedIn: 'root'
@@ -7,7 +8,7 @@ export class UserDetailsService {
 
   constructor() { }
   //User details 
-userDetails = [
+userDetails:UserDetails[] = [
   {
     id: 1,
     name: 'Marry, Jason & Hodge of Attorney',
@@ -19,8 +20,7 @@ userDetails = [
   }
 ];
 
-getUserDetails(){
-  sessionStorage.setItem('User_Details', JSON.stringify(this.userDetails));
+getUserDetails(): UserDetails[]{
   return this.userDetails;
 }
 
